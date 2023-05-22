@@ -1,0 +1,62 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.form {
+  width: 300px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 10vh auto 0 auto;
+  background-color: rgb(250, 242, 242);
+  box-shadow: 2px 2px 8px #000000;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.form #title {
+  color: #010333;
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  
+  width: 100%;
+}
+.form label {
+  color: #010333;
+  font-weight: bolder;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 5px;
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  display: block;
+}
+.form button {
+  border: none;
+  background-color: #df0909;
+  color: aliceblue;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+.form .input-control {
+  margin-bottom: 15px;
+}
+.form input:focus {
+  outline: 0;
+}
+.form .success input {
+  border-color: #07d807;
+}
+.form .error {
+  color: #f10606;
+  margin: 5px;
+}
+.form .error input {
+  border: 2px solid #f10606;
+}/*# sourceMappingURL=styles.css.map */

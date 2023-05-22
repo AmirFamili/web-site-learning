@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Rergistration for learning HTML, CSS & JavaScript">
+    <meta name="keywords" content="registeration">
+    <meta name="author" content="Amir Famili">
+    <meta name="robots" content="follow, index">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Registeration</title>
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+
+<body>
+    <form class="form" action="index.html" enctype="multipart/form-data">
+        <h1 id="title">Create an Account</h1>
+        <div class="input-control ">
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="15" max="90" value="20">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" id="uname">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="passworda">Password again</label>
+            <input type="password" name="passworda" id="passworda">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+
+
+    </form>
+    <script src="../js/javascript.js"></script>
+</body>
+
+</html>
